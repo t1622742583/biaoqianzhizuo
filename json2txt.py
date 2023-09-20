@@ -46,7 +46,7 @@ if __name__ == "__main__":
     python json2txt_nomalize.py --json-dir my_datasets/color_rings/jsons --save-dir my_datasets/color_rings/txts --classes "cat,dogs"
     """
     classes_name = '1,2'  # 中间不能带空格
-    root_path = r'E:\A-输送管识别\输出管正确连接输送管连接输送管移除连接0907'
+    root_path = r'E:\A-输送管识别\输出管正确连接输送管连接输送管移除连接0909'
     parser = argparse.ArgumentParser(description='json convert to txt params')
     parser.add_argument('--json-dir', type=str, default=rf'{root_path}\json', help='json path dir')
     parser.add_argument('--save-dir', type=str, default=rf'{root_path}\labels', help='txt save dir')

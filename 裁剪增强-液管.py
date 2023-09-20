@@ -1,10 +1,8 @@
 # coding=utf8
-
 import cv2
 import os
 import numpy as np
 import random
-
 import cv2
 from tqdm import tqdm
  

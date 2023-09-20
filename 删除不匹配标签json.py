@@ -22,5 +22,5 @@ def remove_unmatched_labels(root_folder):
     print(f"删除了 {len(unmatched_files)} 个不匹配的文件。")
 
 # 使用示例
-root_folder = r'E:\A-输送管识别\输出管正确连接输送管连接输送管移除连接0907'  # 替换为你的根文件夹路径
+root_folder = r'E:\A-输送管识别\输出管正确连接输送管连接输送管移除连接0909'  # 替换为你的根文件夹路径
 remove_unmatched_labels(root_folder)

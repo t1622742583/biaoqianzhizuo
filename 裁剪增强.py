@@ -26,9 +26,9 @@ def all_file_re_path(path, fileType='jpg'):
 
 for out_size in tqdm([random.randint(100,200),random.randint(200,300),random.randint(300,400)]):
     save_idx = 0
-    image_path = r"E:\A-输送管识别\输出管正确连接输送管连接输送管移除连接0907\images"
+    image_path = r"E:\A-输送管识别\输出管正确连接输送管连接输送管移除连接0909\images"
     save_path = rf"E:\A-输送管识别\yeguan_0908"
-    labels_path = r"E:\A-输送管识别\输出管正确连接输送管连接输送管移除连接0907\labels"
+    labels_path = r"E:\A-输送管识别\输出管正确连接输送管连接输送管移除连接0909\labels"
     save_img_path = rf"{save_path}{os.path.sep}images"
     save_label_path = rf"{save_path}{os.path.sep}labels"
 
